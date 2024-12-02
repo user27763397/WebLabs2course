@@ -1,0 +1,83 @@
+.create-product-page * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.create-product-page {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+}
+
+.create-product-page .container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.create-product-page h1.headline_create {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.create-product-page form {
+  display: flex;
+  flex-direction: column;
+}
+
+.create-product-page form label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #555;
+}
+
+.create-product-page form input, 
+.create-product-page form select {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.create-product-page form button.saveProductButton {
+  border: 0;
+  padding: 15px;
+  border-radius: 10px;
+  background: rgb(147, 147, 147);
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #FFF;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.create-product-page form button.saveProductButton:hover {
+  background: rgb(127, 127, 127);
+}
+
+.create-product-page button.back2catalog {
+  border: 0;
+  padding: 10px 15px;
+  margin-top: 20px;
+  border-radius: 10px;
+  background: rgb(147, 147, 147);
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #FFF;
+  cursor: pointer;
+  text-align: center;
+  display: block;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+.create-product-page button.back2catalog:hover {
+  background: rgb(127, 127, 127);
+}

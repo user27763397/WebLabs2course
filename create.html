@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Product</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="create-product-page">
+    <header>
+        <div class="container">
+            <h1 class="headline_create">Create Product</h1>
+        </div>
+    </header>
+    <main class="container">
+        <form id="productForm">
+            <label for="productName">Product Name:</label>
+            <input type="text" id="productName" name="productName" required />
+
+            <label for="productCategory">Category:</label>
+            <select id="productCategory" name="productCategory" required>
+                <option value="motherboards">Motherboard</option>
+                <option value="gpus">GPU</option>
+                <option value="cpus">CPU</option>
+            </select>
+
+            <label for="productPrice">Price:</label>
+            <input type="number" id="productPrice" name="productPrice" required min="1" />
+
+            <label for="productImage">Image URL:</label>
+            <input type="text" id="productImage" name="productImage" required />
+
+            <button type="submit" class="saveProductButton">Save Product</button>
+        </form>
+
+        <button onclick="window.location.href='index.html'" class="back2catalog">Back to Catalog</button>
+    </main>
+    <script src="js/create.js"></script>
+</body>
+</html>
