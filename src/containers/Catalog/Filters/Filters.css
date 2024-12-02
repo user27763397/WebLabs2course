@@ -1,0 +1,29 @@
+.filters {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.filters__select {
+    display: flex;
+}
+
+.selects{
+    margin-right: 30px;
+}
+
+.selects p {
+    margin-left: 10px;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.selects select {
+    border-radius: 20px;
+    border: 2px solid;
+    width: 200px;
+    height: 30px;
+    padding-left: 10px;
+}
+

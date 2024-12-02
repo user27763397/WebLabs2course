@@ -1,0 +1,83 @@
+.cards_content {
+    width: 400px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px;
+
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.cards_content img {
+    margin-bottom: 20px;
+    height: 250px;
+    width: 250px;
+    border-radius: 20px;
+}
+
+.cards_content article {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.cards_title, .cards_price {
+    margin-bottom: 15px;
+}
+
+.cards_desc {
+    margin-bottom: 20px;
+}
+
+.cards_title {
+    font-size: 30px;
+}
+
+.cards_desc, .cards_price {
+    font-size: 18px;
+}
+
+.cards_price {
+    display: flex;
+}
+
+.cards_price-price{
+    margin-right: 50px;
+    font-weight: 600;
+    color: black
+}
+
+.cards__button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.cards_content a{
+    width: 140px;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.cards__button {
+    color: white;
+    background: rgb(147, 147, 147);
+    border-radius: 10px;
+    height: 50px;
+    width: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.1);
+}
+
+.cards__button:hover {background-color: rgba(0, 0, 0, 0.479)}
+
+.cards__button:active {
+  background-color: rgba(0, 0, 0, 0.479);
+  transform: translateY(4px);
+}

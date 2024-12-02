@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "title": "Asus Prime x570-pro",
+        "text": "Motherboard with X570 chipset, supporting AMD processors.",
+        "imgpath": "components/image/product1.png",
+        "price": 200,
+        "type": "motherboards"
+    },
+    {
+        "id": 2,
+        "title": "Msi b550-a pro",
+        "text": "Motherboard with B550 chipset, ideal for AMD Ryzen.",
+        "imgpath": "components/image/product2.png",
+        "price": 150,
+        "type": "motherboards"
+    },
+    {
+        "id": 3,
+        "title": "KFA2 RTX3090 SG",
+        "text": "High-performance graphics card for gaming and creative work.",
+        "imgpath": "components/image/product3.png",
+        "price": 2800,
+        "type": "gpus"
+    },
+    {
+        "id": 4,
+        "title": "MSI GT1030 Silent LP",
+        "text": "Entry-level silent graphics card for basic tasks.",
+        "imgpath": "components/image/product4.png",
+        "price": 120,
+        "type": "gpus"
+    },
+    {
+        "id": 5,
+        "title": "Gigabyte RTX3050 EAGLE",
+        "text": "Affordable mid-range GPU for smooth gaming and rendering.",
+        "imgpath": "components/image/product5.png",
+        "price": 210,
+        "type": "gpus"
+    },
+    {
+        "id": 6,
+        "title": "AMD Ryzen 9 5950x",
+        "text": "High-end AMD processor with 16 cores for professionals.",
+        "imgpath": "components/image/product6.png",
+        "price": 350,
+        "type": "cpus"
+    },
+    {
+        "id": 7,
+        "title": "AMD Ryzen 9 7950x",
+        "text": "Top-tier AMD processor with exceptional performance.",
+        "imgpath": "components/image/product7.png",
+        "price": 1000,
+        "type": "cpus"
+    },
+    {
+        "id": 8,
+        "title": "AMD FX-6100",
+        "text": "Budget-friendly 6-core AMD processor for everyday use.",
+        "imgpath": "components/image/product8.png",
+        "price": 50,
+        "type": "cpus"
+    }
+]

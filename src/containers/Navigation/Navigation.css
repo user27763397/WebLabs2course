@@ -1,0 +1,20 @@
+.navigation ul{
+    display: flex;
+    list-style: none; /* Убираем маркеры списка */
+    padding: 0; /* Убираем внутренние отступы */
+    margin: 0; /* Убираем внешние отступы */
+}
+
+.navigation li {
+    margin: 0 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+li {
+    display: block;
+}

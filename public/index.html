@@ -1,107 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css">
-    <title>Catalog</title>
-</head>
-<body>
-    <nav>
-        <div class="container">
-            <div class="search-area">
-                <input
-                    type="text"
-                    id="search"
-                    placeholder="Search products..."
-                />
-                <svg
-                    class="search-icon"
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="20"
-                    height="20"
-                    viewBox="0 0 24 24"
-                    stroke-width="2"
-                    stroke="currentColor"
-                    fill="none"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                >
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                    <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
-                    <path d="M21 21l-6 -6" />
-                </svg>
-            </div>
-
-            <button id="cartButton" class="cart-button">
-                <img src="images/basket.svg" alt="Корзина" width="24" height="24" />
-                <small id="cartCount" class="cart-count">0</small>
-            </button>
-        </div>
-    </nav>
-
-    <main class="container main-content">
-        <div class="filters">
-            <h2>Filters</h2>
-            <h3>Category</h3>
-            <div id="filters-container">
-                <div>
-                    <input type="checkbox" class="check" name="category" value="Motherboards" id="motherboards" />
-                    <label for="motherboards">Motherboards</label>
-                </div>
-                <div>
-                    <input type="checkbox" class="check" name="category" value="GPUs" id="gpus" />
-                    <label for="gpus">GPUs</label>
-                </div>
-                <div>
-                    <input type="checkbox" class="check" name="category" value="CPUs" id="cpus" />
-                    <label for="cpus">Processors</label>
-                </div>
-            </div>
-            <h3>Sort by Price</h3>
-            <select id="sortPrice">
-                <option value="none">No Sort</option>
-                <option value="price-asc">Price: Low to High</option>
-                <option value="price-desc">Price: High to Low</option>
-                <option value="name-asc">Name: A to Z</option>
-                <option value="name-desc">Name: Z to A</option>
-            </select>
-            <h3>Total Price: $<span id="totalPrice">0.00</span></h3>
-            <button id="open-create-modal" class="add_product_button">Create Product</button>
-        </div>
-
-        <div id="products-wrapper"></div>
-    </main>
-
-    <div id="create-product-modal" class="modal" style="display: none;">
-        <div class="modal-content">
-            <span class="close-button" onclick="closeProductModal()">&times;</span>
-            <h2>Create New Product</h2>
-            <form id="create-product-form">
-                <label for="product-name">Name:</label>
-                <input type="text" id="product-name" name="name" required>
-
-                <label for="product-image">Image URL:</label>
-                <input type="text" id="product-image" name="image" required>
-
-                <label for="product-price">Price:</label>
-                <input type="number" id="product-price" name="price" step="0.01" required>
-
-                <label for="product-category">Category:</label>
-                <select id="product-category" name="category" required>
-                    <option value="">Select Category</option>
-                    <option value="Motherboards">Motherboards</option>
-                    <option value="GPUs">GPUs</option>
-                    <option value="CPUs">CPUs</option>
-                </select>
-
-                <button type="submit" class="primary-btn">Create Product</button>
-            </form>
-        </div>
-    </div>
-
-    <div id="loading-indicator" style="display: none;">Loading...</div>
-
-    <script src="script.js"></script>
-</body>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>React App</title>
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
 </html>

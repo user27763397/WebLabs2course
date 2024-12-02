@@ -1,0 +1,28 @@
+.hero {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+
+.hero-photo {
+    width: 550px;
+    height: auto;
+}
+
+.hero article {
+    margin-left: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero h1 {
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.hero p {
+    font-size: 20px;
+    color: rgb(97, 97, 97);
+}

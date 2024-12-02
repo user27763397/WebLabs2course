@@ -1,0 +1,15 @@
+.search {
+    margin-top: 20px;
+}
+
+.search input {
+    border-radius: 20px;
+    width: 400px;
+    height: 30px;
+    padding-left: 10px;
+}
+
+.search input:focus {
+    border-color: #007bff; /* Цвет при фокусе, из lab3styles */
+    outline: none;
+}
