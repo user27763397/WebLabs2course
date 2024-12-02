@@ -1,0 +1,57 @@
+[
+  { 
+    "id": 1,
+    "name": "Asus Prime x570-pro",
+    "category": "motherboards",
+    "price": 200,
+    "imgUrl": "images/product1.png"
+  },
+  { 
+    "id": 2,
+    "name": "Msi b550-a pro",
+    "category": "motherboards",
+    "price": 150,
+    "imgUrl": "images/product2.png"
+  },
+  { 
+    "id": 3, 
+    "name": "KFA2 RTX3090 SG",
+    "category": "gpus",
+    "price": 2800,
+    "imgUrl": "images/product3.png"
+  },
+  { 
+    "id": 4,
+    "name": "MSI GT1030 Silent LP",
+    "category": "gpus", 
+    "price": 120,
+    "imgUrl": "images/product4.png"
+  },
+  { 
+    "id": 5, "name": "Gigabyte RTX3050 EAGLE OC",
+    "category": "gpus",
+    "price": 210,
+    "imgUrl": "images/product5.png"
+  },
+  { 
+    "id": 6,
+    "name": "AMD Ryzen 9 5950x",
+    "category": "cpus",
+    "price": 350,
+    "imgUrl": "images/product6.png"
+  },
+  { 
+    "id": 7, 
+    "name": "AMD Ryzen 9 7950x",
+    "category": "cpus",
+    "price": 1000, 
+    "imgUrl": "images/product7.png"
+  },
+  { 
+    "id": 8,
+    "name": "AMD FX-6100",
+    "category": "cpus",
+    "price": 50,
+    "imgUrl": "images/product8.png"
+  }
+]
