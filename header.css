@@ -1,0 +1,209 @@
+@media only screen and (max-width: 768px) {
+    .logo{
+        color: #37447E;
+        font-family: Roboto;
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 38px; /* 146.154% */
+        text-decoration: none;
+    }
+    
+    body.menu-open {
+        overflow: hidden;
+    }
+      
+    .burger-menu {
+        display: none;
+        cursor: pointer;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 30px;
+        height: 20px;
+        z-index: 10;
+        position: relative; /* Добавим, чтобы крестик оставался на месте */
+    }
+      
+    .burger-menu span {
+        background-color: #111B47;
+        height: 3px;
+        width: 100%;
+        border-radius: 2px;
+        transition: all 0.3s;
+    }
+      
+    /* Поворот линий для крестика */
+    .burger-menu.open span:nth-child(1) {
+        transform: rotate(45deg) translate(5px, 5px);
+    }
+      
+    .burger-menu.open span:nth-child(2) {
+        opacity: 0;
+    }
+      
+    .burger-menu.open span:nth-child(3) {
+        transform: rotate(-45deg) translate(5px, -5px);
+    }
+      
+    /* Стили для мобильного меню */
+    .mobile-menu {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #FFF; /* Фон с затемнением */
+        justify-content: center;
+        align-items: center;
+        z-index: 5;
+        flex-direction: column;
+    }
+      
+    .mobile-menu.open {
+        display: flex;
+    }
+      
+    /* Ссылки в мобильном меню */
+    .mobile-menu-links {
+        list-style: none;
+        padding: 0;
+        text-align: center;
+        color: #505F98;
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; /* 171.429% */
+        list-style: none;
+    }
+      
+    .mobile-menu-links a {
+        display: block;
+        padding: 20px;
+        font-size: 24px;
+        color: #fff;
+        text-decoration: none;
+    }
+      
+    .mobile-menu-links a:hover {
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+      
+    /* Кнопки в мобильном меню */
+    .mobile-menu-buttons {
+        margin-top: 20px;
+    }
+      
+    .mobile-menu-buttons a {
+        display: block;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+      
+    .mobile-menu-buttons .btn-learn-more,
+    .mobile-menu-buttons .btn-buy-now {
+        background-color: #FFD166; /* Кнопки как в основном стиле */
+        color: #111B47;
+        padding: 10px;
+        border: none;
+        font-size: 16px;
+        width: 150px;
+        cursor: pointer;
+    }
+      
+    .mobile-menu-buttons .btn-learn-more {
+        background-color: #111B47;
+        color: #FFF;
+    }
+
+    .burger-menu {
+        display: flex;
+        margin-left: 260px;
+        margin-top: -30px;
+    }
+    
+    .menu, .buttons {
+        display: none; /* Обычное меню скрыто на мобильных */
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+
+    header{
+        margin-top: 27px;
+    }
+    
+    .logo{
+        color: #37447E;
+        font-family: Roboto;
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 38px; /* 146.154% */
+        margin-left: 160px;
+    }
+
+    .menu{
+        color: #505F98;
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; /* 171.429% */
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        gap: 60px;
+        margin-top: -30px;
+        margin-left: 735px;
+    }
+
+    .btn-learn-more{
+        width: 104px;
+        height: 26px;
+        flex-shrink: 0;
+        border-radius: 2px;
+        background: #111B47;
+        width: 104px;
+        color: #FFF;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 18px; /* 150% */
+        border: 0;
+        cursor: pointer;
+    }
+
+    .btn-buy-now{
+        width: 104px;
+        height: 26px;
+        flex-shrink: 0;
+        border-radius: 2px;
+        background: #FFD166;
+        width: 104px;
+        color: #111B47;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 18px; /* 150% */
+        border: 0;
+        cursor: pointer;
+    }
+
+    .buttons{
+        display: flex;
+        flex-direction: row;
+        gap: 26px;
+        margin-top: -40px;
+        margin-left: 1095px;
+    }
+    
+    .mobile-menu{
+        display: none;
+    }
+}

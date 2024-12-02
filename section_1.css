@@ -1,0 +1,236 @@
+@media only screen and (max-width: 768px) {
+    .headline1_section1{
+        width: 100%;
+        color: #091133;
+        font-family: Roboto;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 48px; /* 133.333% */
+    }
+
+    .paragraph1_section1{
+        width: 100%;
+        color: #6F7CB2;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px; /* 162.5% */
+    }
+
+    .icon1_section1, .icon11_section1{
+        width: 36px;
+    }
+
+    .title1_section1, .title11_section1{
+        width: 90%;
+        color: #091133;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 26px; /* 162.5% */
+    }
+
+    .paragraph2_section1, .paragraph22_section1{
+        width: 90%;
+        color: #5D6970;
+        font-family: Roboto;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px; /* 150% */
+    }
+
+    .container1_11_section1{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        width: 100%; 
+    }
+
+    .container1_section1, .container11_section1 {
+        display: flex;
+        flex-direction: column;
+        width: 45%;
+    }
+
+    .ipad_img_section1{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .headline1_section1{
+        width: 540px;
+        color: #091133;
+        font-family: Roboto;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 48px; /* 133.333% */
+        margin-left: 160px;
+        margin-top: 120px;
+    }
+
+    .paragraph1_section1{
+        width: 540px;
+        color: #6F7CB2;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px; /* 162.5% */
+        margin-left: 160px;
+        margin-top: 23px;
+    }
+
+    .container1_11_section1{
+        margin-top: 45px;
+        margin-left: 160px;
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+
+    .title1_section1{
+        width: 255px;
+        color: #091133;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 26px; /* 162.5% */
+    }
+
+    .paragraph2_section1{
+        width: 255px;
+        color: #5D6970;
+        font-family: Roboto;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px; /* 150% */
+    }
+
+    .title11_section1{
+        width: 255px;
+        color: #091133;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 26px; /* 162.5% */
+    }
+
+    .paragraph22_section1{
+        width: 255px;
+        color: #5D6970;
+        font-family: Roboto;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px; /* 150% */
+    }
+
+    .ipad_img_container_section1{
+        margin-left: 800px;
+        margin-top: -425px;
+        width: 735px;
+        height: 600px;
+        overflow: hidden;
+    }
+
+    .ipad_img_container_section1 img{
+        width: 1094px;
+        height: 841px;
+    }
+}
+
+@media only screen and (min-width: 1920px) {
+    .headline1_section1{
+        width: 640px;
+        color: #091133;
+        font-family: Roboto;
+        font-size: 46px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 48px; /* 133.333% */
+        margin-left: 160px;
+        margin-top: 120px;
+    }
+
+    .paragraph1_section1{
+        width: 640px;
+        color: #6F7CB2;
+        font-family: Roboto;
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px; /* 162.5% */
+        margin-left: 160px;
+        margin-top: 23px;
+    }
+
+    .container1_11_section1{
+        margin-top: 45px;
+        margin-left: 160px;
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+
+    .title1_section1{
+        width: 255px;
+        color: #091133;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 26px; /* 162.5% */
+    }
+
+    .paragraph2_section1{
+        width: 255px;
+        color: #5D6970;
+        font-family: Roboto;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px; /* 150% */
+    }
+
+    .title11_section1{
+        width: 255px;
+        color: #091133;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 26px; /* 162.5% */
+    }
+
+    .paragraph22_section1{
+        width: 255px;
+        color: #5D6970;
+        font-family: Roboto;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px; /* 150% */
+    }
+
+    .ipad_img_container_section1{
+        margin-left: 1459px;
+        margin-top: -425px;
+        width: 1102px;
+        height: 900px;
+        overflow: hidden;
+    }
+
+    .ipad_img_container_section1 img{
+        width: 1641px;
+        height: 1261px;
+    }
+}
